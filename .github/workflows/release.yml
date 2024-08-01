@@ -4,12 +4,10 @@ on:
     branches:
       - main
       - next
-  workflow_dispatch:
-
 jobs:
   release:
     runs-on: ubuntu-latest
-    # if: github.repository == 'jaredpalmer/formik'
+    if: github.repository == 'jaredpalmer/formik'
     steps:
       - uses: actions/checkout@v3
         with:
