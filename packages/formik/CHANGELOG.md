@@ -1,5 +1,11 @@
 # formik
 
+## 2.5.0
+
+### Minor Changes
+
+- [`e32a9d7`](https://github.com/jaredpalmer/formik/commit/e32a9d7a51b4659057247513983da4764b8f006d) Thanks [@fbarbare](https://github.com/fbarbare)! - Formik might not need to run asynchronously, it all depends on the validation functions. This change makes it all run synchronously if the validation function do not return any promise, making all the updates much faster.
+
 ## 2.4.6
 
 ### Patch Changes
