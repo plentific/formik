@@ -34,7 +34,16 @@
   "module": "dist/formik.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    ".turbo/**/*",
+    "dist/**/*",
+    "src/**/*",
+    "test/**/*",
+    "types/**/*",
+    ".gitignore",
+    ".npmignore",
+    "package.json",
+    "README.md",
+    "tsconfig.build.json"
   ],
   "peerDependencies": {
     "react": ">=16.8.0"
