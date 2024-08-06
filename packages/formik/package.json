@@ -45,6 +45,7 @@
     "test:watch": "npm run test -- --watchAll",
     "start": "tsdx watch --tsconfig tsconfig.build.json --verbose --noClean",
     "build": "tsdx build --tsconfig tsconfig.build.json",
+    "prepare": "npm run build",
     "lint": "tsdx lint"
   },
   "dependencies": {
